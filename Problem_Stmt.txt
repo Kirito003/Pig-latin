@@ -1,0 +1,35 @@
+Pig Latin
+
+In this problem you have to do the following,
+
+-> Get a word from the user.
+
+-> If the word start with 'consonants' then remove the character from the particular place and paste that removed character at the end of the input word atlast append '-ly'. Note: if a vowel then stop and append '-ly'.
+   Example1:
+	Input: 'hello'
+	Output: 'elloh-ly'
+
+   Example2:
+	Input: 'gloves'
+	Output: 'ovesgl-ly'
+
+-> If the word contains white space or ' ' then throw Invalid Input.
+   Example:
+	Input: 'pig latin'
+	Output: 'Invalid Input'
+
+-> If the word starts with 'vowel' then just append '-yay'.
+   Example1:
+	Input: 'it'
+	Output: 'it-yay'
+
+   Example2:
+	Input: 'apple'
+	Output: 'apple-yay'
+
+Note:
+     Input only in the lowercase, 'a-z'
+
+
+Write a program for the above statement.
+	 
